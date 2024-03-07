@@ -23,7 +23,7 @@
                 </h1>
                 <div class="input-box">
                     <label for="weight">
-                        Peso em Kg
+                        Peso (Kg)
                     </label>
                     <div class="input-field">
                         <i class="fa-solid fa-weight-hanging"></i>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="input-box">
                     <label for="height">
-                        Altura em metros
+                        Altura (m)
                     </label>
                     <div class="input-field">
                         <i class="fa-solid fa-ruler"></i>
@@ -49,28 +49,31 @@
                 <button id="calculate">
                     Calcular
                 </button>
+                <button id="reset" class="hidden">
+                    Limpar
+                </button>
             </form>
 
-            <div id="infos">
+            <div id="infos" class="hidden">
                 <div id="result">
                     <div id="bmi">
-                        <span id="value"></span>
+                        <span id="value">55</span>
                         <span>Seu IMC</span>
                     </div>
                     <div id="description">
-                        <span></span>
+                        <span>55</span>
                     </div>
-                    <div id="more-info">
+                  <!-- <div id="more-info">
                         <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">
                             Mais informações sobre IMC.
                             <i class="fa-solid fa-link"></i>
                         </a>
                        
-                    </div>
+                    </div>-->  
                 </div>
             </div>
         </section>
-
+<script src="js/script.js"></script>
        
     </main>
 </body>
