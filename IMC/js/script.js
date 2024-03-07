@@ -23,3 +23,7 @@ document.getElementById("calculate").addEventListener("click", function(event) {
     document.getElementById("infos").classList.remove("hidden");
     document.getElementById("reset").classList.remove("hidden");
 })
+
+function Limpar() {
+    window.location.reload();
+}
