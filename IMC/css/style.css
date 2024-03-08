@@ -20,8 +20,9 @@ body{
     display: flex;
     align-items: center;
     gap: 3.5rem;
-    margin-left: 25rem;
-    margin-top: 8rem;
+    width: 80%;
+    padding-left: 16rem;
+    padding-top: 4rem;
 }
 
 #img img{
@@ -85,21 +86,25 @@ body{
     padding: 0.6rem;
 }
 
-.input-field input{
+.input-field input,
+.input-field select{
     background-color: transparent;
     border: none;
     width: 100%;
     font-size: 1.3rem;
-    color: #f8fafc;
+    color: hsl(210, 40%, 98%);
     padding: 0 0.5rem;
 }
 
 .input-field input::-webkit-outer-spin-button,
-.input-field input::-webkit-inner-spin-button{
+.input-field input::-webkit-inner-spin-button,
+.input-field select::-webkit-outer-spin-button,
+.input-field select::-webkit-inner-spin-button{
     appearance: none;
 }
 
-.input-field input:focus{
+.input-field input:focus,
+.input-field select:focus{
     outline: none;
 }
 
@@ -146,7 +151,7 @@ body{
 }
 
 #description{
-   width: 15.5rem
+    width: 15.5rem
 }
 #more-info{
     text-align: center;

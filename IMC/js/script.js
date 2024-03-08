@@ -2,6 +2,14 @@ document.getElementById("calculate").addEventListener("click", function(event) {
     event.preventDefault();
     var weight = parseFloat(document.getElementById("weight").value);
     var height = parseFloat(document.getElementById("height").value);
+    var gender = document.getElementById("gender").value;
+
+    var bmi;
+    if (gender === "male") {
+        bmi = weight / (height * height);
+    } else if (gender === "female") {
+        bmi = 1.3 * (weight / (height * height));
+    }
 
     var bmi = weight / (height * height);
 
