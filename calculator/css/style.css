@@ -44,17 +44,6 @@ p{
     text-align: center;
 }
 
-.btnoption{
-    background-color: purple;
-    color: antiquewhite;
-    border-radius: 3em;
-    border-style: none;
-}
-
-.btnoption a:hover{
-    color: wheat;
-}
-
 .row{
     display: flex;
     flex-flow: row wrap;
@@ -65,7 +54,28 @@ input{
     background-color: orchid;
     color: white;
     border-radius: 5em;
-    border-style: none;
+    width: 80%;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    font-family: 'Lemon/Milk', sans-serif;
+    border: none;
+    outline: none;
+}
+
+#calculate{
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: orchid;
+    color: #f8fafc;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+#calculate :hover{
+    color: gainsboro;
 }
 
 @media screen and (max-width: 600px) {
