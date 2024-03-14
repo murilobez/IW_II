@@ -16,8 +16,7 @@ body{
     display: grid;
     place-items: center;
     gap: 3.5rem;
-    width: 80%;
-    margin-left: 2.5rem;
+    width: 100%;
 }
 
 #img img{
